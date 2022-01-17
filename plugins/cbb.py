@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "credits", url="https://telegram.me/TMC_BOTX"
+                        "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️", url="https://telegram.me/TMC_BOTX"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "support", url="https://telegram.me/TMC_BOTX"
+                        "🔰𝓢𝓾𝓹𝓹𝓸𝓻𝓽🔰", url="https://telegram.me/TMC_BOTX_Group"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "credits", url="https://telegram.me/TMC_BOTX"
+                        "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️", url="https://telegram.me/TMC_BOTX"
                     )
                 ],
             ]
