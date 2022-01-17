@@ -36,6 +36,10 @@
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Image-Editor)
 
+### Deploy On Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FAppu200629%2FImage-Editor&envs=TG_BOT_TOKEN%2CAPI_HASH%2CAPP_ID%2CRemoveBG_API%2CWEBHOOK&WEBHOOKDefault=ANYTHING&referralCode=appu2006)
+
 ### Deploy in your vps
 ```sh
 git clone https://github.com/TroJanzHEX/Image-Editor
