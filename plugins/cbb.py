@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "credits", url="https://telegram.me/TMC_BOTX"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "support", url="https://telegram.me/TMC_BOTX"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "credits", url="https://telegram.me/TMC_BOTX"
                     )
                 ],
             ]
