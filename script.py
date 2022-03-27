@@ -1,6 +1,6 @@
 class script(object):
 
-    START_MSG = """ <b>Hi {}
+    START_MSG = """ <b>Hi 
 
 I'm a Image Editor Bot which Supports various modes
 
