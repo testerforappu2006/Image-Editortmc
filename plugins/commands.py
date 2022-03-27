@@ -16,12 +16,6 @@ async def start(client: Client, message: Message):
                         InlineKeyboardButton("HELP", callback_data="help_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️",
-                            url="https://t.me/TMC_BOTX",
-                        )
-                    ],
                 ]
             ),
             reply_to_message_id=message.message_id,
@@ -42,12 +36,6 @@ async def help(client, message):
                         InlineKeyboardButton("BACK", callback_data="start_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            "🔰𝓢𝓾𝓹𝓹𝓸𝓻𝓽🔰",
-                            url="https://t.me/TMC_BOTX_Group",
-                        )
-                    ],
                 ]
             ),
             reply_to_message_id=message.message_id,
@@ -67,12 +55,6 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️",
-                            url="https://t.me/TMC_BOTX",
-                        )
                     ],
                 ]
             ),
