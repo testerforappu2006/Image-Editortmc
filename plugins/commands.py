@@ -9,7 +9,7 @@ async def start(client: Client, message: Message):
     try:
         await message.reply_photo(
             photo="https://telegra.ph/file/6aa785598aded597f1f7c.png"
-            caption=script.START_MSG.format(message.from_user.mention),
+            caption=script.START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
