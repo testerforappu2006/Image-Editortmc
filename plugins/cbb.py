@@ -109,11 +109,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data"),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️", url="https://t.me/TMC_BOTX"
-                    )
-                ],
+                
             ]
         )
 
@@ -129,11 +125,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data"),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "🔰𝓢𝓾𝓹𝓹𝓸𝓻𝓽🔰", url="https://t.me/TMC_BOTX_Group"
-                    )
-                ],
+                
             ]
         )
         await query.message.edit_text(
@@ -146,11 +138,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data"),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "❤️𝑪𝒓𝒆𝒅𝒊𝒕𝒔❤️", url="https://t.me/TMC_BOTX"
-                    )
-                ],
+                
             ]
         )
         await query.message.edit_text(
