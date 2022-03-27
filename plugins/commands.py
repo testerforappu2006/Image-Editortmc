@@ -18,7 +18,6 @@ async def start(client: Client, message: Message):
                     ],
                 ]
             ),
-            reply_to_message_id=message.message_id,
         )
     except Exception:
         pass
